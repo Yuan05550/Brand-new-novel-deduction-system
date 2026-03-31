@@ -1,0 +1,410 @@
+{
+  "一品": [
+    {
+      "name": "蓄力丸",
+      "category": "增幅类",
+      "effect": "提高个人一定程度的力量",
+      "applicableTarget": "斗者以下"
+    },
+    {
+      "name": "增气散",
+      "category": "增幅类",
+      "effect": "斗者以下使用，短时间内达到斗者实力",
+      "applicableTarget": "斗者以下"
+    },
+    {
+      "name": "回春散",
+      "category": "疗伤类",
+      "effect": "具有疗伤效果",
+      "applicableTarget": "通用"
+    },
+    {
+      "name": "凝血散",
+      "category": "疗伤类",
+      "effect": "具有疗伤效果，药效比回春散好",
+      "applicableTarget": "通用"
+    },
+    {
+      "name": "复伤丹",
+      "category": "疗伤类",
+      "effect": "具有一定的疗伤效果",
+      "applicableTarget": "通用"
+    },
+    {
+      "name": "凝火丹",
+      "category": "辅助类",
+      "effect": "提高火系能量的吸收效率",
+      "applicableTarget": "修炼火属性功法者"
+    },
+    {
+      "name": "回春丹",
+      "category": "疗伤类",
+      "effect": "内院药帮炼制的疗伤丹药之一",
+      "applicableTarget": "通用"
+    }
+  ],
+  "二品": [
+    {
+      "name": "筑基灵液",
+      "category": "修炼类",
+      "effect": "斗者以下使用，加速修炼效果",
+      "applicableTarget": "斗者以下"
+    },
+    {
+      "name": "养气散",
+      "category": "恢复类",
+      "effect": "用于使用秘法提高功力后的气脉虚弱",
+      "applicableTarget": "斗者"
+    },
+    {
+      "name": "护脉丹",
+      "category": "防御类",
+      "effect": "保护脉络不受伤害",
+      "applicableTarget": "斗者"
+    },
+    {
+      "name": "冰心丹",
+      "category": "辅助类",
+      "effect": "保持灵魂处于清醒状态",
+      "applicableTarget": "灵魂修炼者"
+    },
+    {
+      "name": "冰清丹",
+      "category": "辅助类",
+      "effect": "能够极为有效的缓解火毒的掺杂",
+      "applicableTarget": "火毒患者"
+    },
+    {
+      "name": "生骨丹",
+      "category": "疗伤类",
+      "effect": "具有比较好的疗伤效果",
+      "applicableTarget": "通用"
+    },
+    {
+      "name": "复体丹",
+      "category": "疗伤类",
+      "effect": "不仅对内伤有疗伤效果，对外伤也有不错效果",
+      "applicableTarget": "通用"
+    }
+  ],
+  "三品": [
+    {
+      "name": "回气丹",
+      "category": "恢复类",
+      "effect": "快速恢复斗气",
+      "applicableTarget": "斗师、大斗师"
+    },
+    {
+      "name": "风行丹",
+      "category": "辅助类",
+      "effect": "短时间内加快移动速度",
+      "applicableTarget": "斗师、大斗师"
+    },
+    {
+      "name": "聚气散",
+      "category": "突破类",
+      "effect": "帮助斗者巅峰突破瓶颈，晋升斗者",
+      "applicableTarget": "斗者巅峰"
+    },
+    {
+      "name": "复生丹",
+      "category": "疗伤类",
+      "effect": "强力止血疗伤，同时快速回复斗气",
+      "applicableTarget": "斗师、大斗师"
+    },
+    {
+      "name": "速灵风丹",
+      "category": "辅助类",
+      "effect": "加速体内斗气运转",
+      "applicableTarget": "斗师、大斗师"
+    },
+    {
+      "name": "醒神丹",
+      "category": "修炼类",
+      "effect": "使得服用者在修炼状态中，对外界天地能量的感应更敏感，吸收速度增加",
+      "applicableTarget": "斗者"
+    }
+  ],
+  "四品": [
+    {
+      "name": "聚气散",
+      "category": "突破类",
+      "effect": "帮助九段斗之气百分百突破至斗者境界",
+      "applicableTarget": "斗者巅峰"
+    },
+    {
+      "name": "三纹青灵丹",
+      "category": "突破类",
+      "effect": "普通丹助斗师突破至大斗师；大斗师服用有几率提升一星；最高三纹丹可短暂提升三星但存在反噬风险",
+      "applicableTarget": "斗师、大斗师"
+    },
+    {
+      "name": "紫心破障丹",
+      "category": "提升类",
+      "effect": "令大斗师提升一星实力，同一级别可接连服用两枚而不产生太大抗性",
+      "applicableTarget": "大斗师"
+    },
+    {
+      "name": "焚血",
+      "category": "修炼类",
+      "effect": "对修炼火属性斗气者有效，敷在身体上可加速消耗与再生斗气，在僵持中逐步增强实力",
+      "applicableTarget": "火属性斗气修炼者"
+    },
+    {
+      "name": "兽力丹",
+      "category": "增幅类",
+      "effect": "能够短时间内增幅服用者的一些力量",
+      "applicableTarget": "斗者"
+    },
+    {
+      "name": "天气丹",
+      "category": "未知",
+      "effect": "具体作用未知，欣蓝在内院时所炼",
+      "applicableTarget": "未知"
+    },
+    {
+      "name": "大火灵芝丹",
+      "category": "未知",
+      "effect": "具体功效不详",
+      "applicableTarget": "推测为斗师、大斗师"
+    },
+    {
+      "name": "黄星柳絮丹",
+      "category": "未知",
+      "effect": "具体功效不详",
+      "applicableTarget": "推测为斗师、大斗师"
+    }
+  ],
+  "五品": [
+    {
+      "name": "血莲丹",
+      "category": "防御类",
+      "effect": "服用后在人体内形成血痂保护层，可抵御异火的高温炙烤，是收服异火时的必备丹药",
+      "applicableTarget": "斗师及以上（收服异火者）"
+    },
+    {
+      "name": "复灵紫丹",
+      "category": "恢复类",
+      "effect": "能够将因封印或体内残伤而导致衰退的实力完全修复过来，恢复至巅峰状态",
+      "applicableTarget": "实力衰退者（如被封印的斗皇）"
+    },
+    {
+      "name": "龙力丹",
+      "category": "增幅类",
+      "effect": "让服用者在短时间内拥有极其强横的肉身力量，与斗气振幅无关，是纯粹的内体力量增幅",
+      "applicableTarget": "需要爆发力量的斗者"
+    },
+    {
+      "name": "斗灵丹",
+      "category": "提升类",
+      "effect": "能够使服下它的斗王级别强者直接提升一星实力，但一生只能服用一枚，抗性极高",
+      "applicableTarget": "斗王强者"
+    },
+    {
+      "name": "冰灵丹",
+      "category": "辅助类",
+      "effect": "能够暂时压抑体内的火毒，防止火毒侵蚀理智",
+      "applicableTarget": "火毒患者"
+    },
+    {
+      "name": "复元丹",
+      "category": "疗伤类",
+      "effect": "专门用于治愈一些严重的伤势，药性温和，不会给本就受伤的体内造成丝毫破坏，是治愈重伤的绝佳丹药",
+      "applicableTarget": "深受重伤者"
+    },
+    {
+      "name": "养魂涎",
+      "category": "灵魂类",
+      "effect": "滋养灵魂的丹药，用于修复和唤醒灵魂",
+      "applicableTarget": "灵魂体、灵魂受损者"
+    },
+    {
+      "name": "气修丹",
+      "category": "恢复类",
+      "effect": "对于斗皇甚至斗宗都有加速恢复斗气的效果，属于高阶消耗型丹药",
+      "applicableTarget": "斗皇、斗宗强者"
+    }
+  ],
+  "六品": [
+    {
+      "name": "斗灵丹",
+      "category": "提升类",
+      "effect": "使斗王强者直接提升一星实力，一生只能服用一枚",
+      "applicableTarget": "斗王强者"
+    },
+    {
+      "name": "皇极丹",
+      "category": "提升类",
+      "effect": "使斗皇强者提升一至二星实力，一生只能服用一枚",
+      "applicableTarget": "斗皇强者"
+    },
+    {
+      "name": "破宗丹",
+      "category": "突破类",
+      "effect": "增加斗皇巅峰强者一成突破至斗宗的几率，突破失败不会导致实力倒退",
+      "applicableTarget": "斗皇巅峰强者"
+    },
+    {
+      "name": "破厄丹",
+      "category": "辅助类",
+      "effect": "破除封印，并有几率免除下次封印",
+      "applicableTarget": "被封印者"
+    },
+    {
+      "name": "融灵丹",
+      "category": "修复类",
+      "effect": "让灵魂与肉体融合，快速恢复灵魂力量，修复灵魂创伤",
+      "applicableTarget": "灵魂受损者、灵魂与肉体分离者"
+    },
+    {
+      "name": "地灵丹",
+      "category": "辅助类",
+      "effect": "吞噬陨落心炎的必备丹药",
+      "applicableTarget": "准备吞噬陨落心炎者"
+    },
+    {
+      "name": "清魂丹",
+      "category": "辅助类",
+      "effect": "具体功效不详，推测与灵魂相关",
+      "applicableTarget": "推测为灵魂修炼者"
+    },
+    {
+      "name": "蛇髓蜕骨丹",
+      "category": "滋补类",
+      "effect": "滋补胎儿，使其修炼斗气更加顺畅，是蛇人族秘法所需丹药",
+      "applicableTarget": "孕妇（胎儿）"
+    },
+    {
+      "name": "青冥寿丹",
+      "category": "续命类",
+      "effect": "提升人将近十年寿命，一生只能服用一枚",
+      "applicableTarget": "寿命将尽者"
+    }
+  ],
+  "七品": [
+    {
+      "name": "化形丹",
+      "category": "辅助类",
+      "effect": "让魔兽彻底脱离兽身，化形成人，从而同时拥有魔兽的悠长寿命和人类的修炼天赋",
+      "applicableTarget": "化形期的魔兽"
+    },
+    {
+      "name": "阴阳玄龙丹",
+      "category": "突破类",
+      "effect": "不具备直接提升实力的功效，但服用后可让药力隐藏于体内，在受重创濒死时有几率触发“破后而立”，获得蜕变突破的机会（如斗宗突破至斗尊），并有几率继承一丝稀薄龙气",
+      "applicableTarget": "斗宗及以上强者"
+    },
+    {
+      "name": "噬生丹",
+      "category": "禁药类",
+      "effect": "让大斗师级别在极短时间内提升至斗王级别，但服用者只剩三年寿命",
+      "applicableTarget": "大斗师"
+    },
+    {
+      "name": "返命丹",
+      "category": "保命类",
+      "effect": "只要不是被直接砍掉脑袋或震碎心脏，再重的伤势也能救活一命，相当于第二条命",
+      "applicableTarget": "重伤濒死者"
+    },
+    {
+      "name": "天魂融血丹",
+      "category": "滋补类",
+      "effect": "蛇人族滋补婴孩的最高等秘法丹药，具体功效与提升胎儿天赋相关",
+      "applicableTarget": "蛇人族婴孩"
+    },
+    {
+      "name": "火菩丹",
+      "category": "提升类",
+      "effect": "七品高级丹药，具体功效不详",
+      "applicableTarget": "推测为高阶斗者"
+    },
+    {
+      "name": "素心丹",
+      "category": "未知",
+      "effect": "具体功效不详",
+      "applicableTarget": "未知"
+    },
+    {
+      "name": "阴阳命魂丹",
+      "category": "未知",
+      "effect": "具体功效不详",
+      "applicableTarget": "未知"
+    }
+  ],
+  "八品": [
+    {
+      "name": "茯苓青丹",
+      "category": "恢复类",
+      "effect": "帮助实力退化的斗尊层次强者恢复实力，可恢复2至3星修为",
+      "applicableTarget": "实力退化的斗尊强者"
+    },
+    {
+      "name": "生骨融血丹",
+      "category": "复活类",
+      "effect": "炼制躯体时的必备之物，号称只要还有一口气就能救活，可将灵魂与躯体完美融合",
+      "applicableTarget": "灵魂体、重伤濒死者"
+    },
+    {
+      "name": "一始丹",
+      "category": "改善类",
+      "effect": "改善修炼者体质，药性柔和，婴儿亦可服用，药效会留在体内慢慢改善体质",
+      "applicableTarget": "婴儿及需要改善体质者"
+    },
+    {
+      "name": "菩提丹",
+      "category": "突破类",
+      "effect": "增加突破至斗圣的几率（约两成），可引来八色至九色丹雷",
+      "applicableTarget": "九转斗尊巅峰强者"
+    },
+    {
+      "name": "丹兽",
+      "category": "特殊类",
+      "effect": "八品巅峰丹药，接近九品，已具备生命形态和灵智，可视为特殊生命体",
+      "applicableTarget": "无特定适用对象（丹药本身）"
+    }
+  ],
+  "九品": [
+    {
+      "name": "菩提大还丹",
+      "category": "突破类",
+      "effect": "菩提丹的强化版，能使斗尊巅峰强者突破至半圣的成功率提升约五成",
+      "applicableTarget": "斗尊巅峰强者"
+    },
+    {
+      "name": "九阴黄泉丹",
+      "category": "辅助类",
+      "effect": "以黄泉血晶为主材料，打入净莲妖火体内可削弱其能力，帮助收服异火",
+      "applicableTarget": "准备收服净莲妖火者"
+    },
+    {
+      "name": "九品玄丹（无名）",
+      "category": "提升类",
+      "effect": "萧炎在药族药典上炼制，服用后实力从五星斗圣暴涨至六星斗圣后期",
+      "applicableTarget": "斗圣强者"
+    },
+    {
+      "name": "雷劫丹",
+      "category": "提升类",
+      "effect": "以九玄金雷为主材料炼制，服用后从六星斗圣中期突破至七星斗圣",
+      "applicableTarget": "斗圣强者"
+    },
+    {
+      "name": "丹塔老祖",
+      "category": "特殊类",
+      "effect": "本体为九品玄丹，由丹塔前辈炼制时融入一丝神魂而产生变异，化为人形，拥有六星斗圣实力，是丹塔的守护者",
+      "applicableTarget": "特殊生命体（丹药本身）"
+    },
+    {
+      "name": "帝品雏丹",
+      "category": "突破类",
+      "effect": "超越九品的丹药，由陀舍古帝炼制，蕴含帝之源气，拥有半步斗帝实力，最终被魂天帝炼化成完整帝丹，助其踏入斗帝境界",
+      "applicableTarget": "九星斗圣巅峰强者"
+    },
+    {
+      "name": "九转玄丹",
+      "category": "提升类",
+      "effect": "药族药典大会中出现的九品丹药，具体效用未详述",
+      "applicableTarget": "推测为斗圣强者"
+    }
+  ]
+}
