@@ -1,9 +1,140 @@
-今天起，理论上所有的小说世界观都能通过获取小说本身架构的定义，通过对AI的约束重构，实现将你带入这个小说所对应的世界中游玩。
-你可以选择任何角色，任何时间线.....只为你能补足当初你对某个人物的惋惜或者是对任何事的渴望！！！
-感谢DeepseekAI提供的API支持，目前这个架构受到字数限制，理论上AI能力越强，这个模型实现的带入能力，推理能力就会更强，因为本身便是基于AI开发，望各位支持！！
+斗破苍穹 · 命运推演
+一款基于 DeepSeek API 的 《斗破苍穹》世界观文字推演游戏
+你可以扮演原著中的任何角色，从退婚少年到炎帝至尊，亲手改写命运，书写属于你的传奇。
+📖 简介
+《斗破苍穹·命运推演》是一个基于 DeepSeek 大语言模型 的交互式文字游戏。
+你将从原著数百位角色中选择一位（或自定义），从任意时间节点开始，通过自由输入行动，让 AI 为你生成符合世界观的剧情发展。
 
-From today onwards, theoretically, all novel worldviews can be reconstructed by obtaining the definition of the novel's own structure and constraining AI. 
-This allows you to be transported into the world corresponding to this novel and explore it. You can choose any character, any timeline... 
-It's all about fulfilling your regrets towards a certain character or your desires for anything! Thank you to DeepseekAI for providing API support.
-Currently, this structure is limited by word count. 
-Theoretically, the stronger the AI capability, the stronger the model's ability to transport and reason will be, as it is developed based on AI. I hope you all will support it!!
+游戏内置了完整的 异火、斗技、丹药、角色 数据库，AI 会严格按照原著设定为你分配初始状态，并在推演中动态更新你的境界、生命、斗气、物品栏。
+无论是重温经典桥段，还是开创新的史诗，你的每一个选择都将改变命运的走向。
+
+✨ 特性
+✅ 海量角色：包含原著中 200+ 位角色，从萧炎、药老到魂天帝、烛坤，身份、势力、关系一应俱全。
+
+✅ 完整异火/斗技/丹药库：基于原著整理的 23 种异火、300+ 斗技、100+ 丹药，推演时自动参考。
+
+✅ 智能剧情生成：接入 DeepSeek API，根据你的行动实时生成合理剧情，支持自由推演。
+
+✅ 状态动态更新：生命值、斗气值、境界、地点、物品栏（斗技/丹药/秘法）全跟随剧情变化。
+
+✅ 物品系统：双击物品栏即可使用丹药/斗技，支持右键菜单选择使用方式（攻击/防御/激活等）。
+
+✅ 存档/读档：支持自动存档和手动存档，随时回溯命运。
+
+✅ 图形界面 & 命令行双模式：新手友好的 GUI（tkinter）和轻量级 CLI 任你选择。
+
+🚀 快速开始
+1. 克隆项目
+bash
+git clone https://github.com/你的用户名/斗破推演.git
+cd 斗破推演
+2. 安装依赖
+本项目依赖以下 Python 库：
+
+bash
+pip install requests pillow
+requests：调用 DeepSeek API
+
+pillow：GUI 背景图片支持（可选，不影响 CLI 运行）
+
+3. 配置 API 密钥
+编辑 api_config.json 文件，填入你的 DeepSeek API Key：
+
+json
+{
+  "api_key": "sk-xxxxxxxxxxxxxxxxxxxxxxxx"
+}
+没有 API Key？请前往 DeepSeek 官网 注册获取。
+
+4. 运行游戏
+图形界面模式（推荐）：
+
+bash
+python gui.py
+命令行模式：
+
+bash
+python main.py
+🎮 使用说明
+图形界面（gui.py）
+启动后，首先选择角色（可从列表中选取或输入自定义）。
+
+选择时间节点（覆盖原著主要剧情阶段，也支持自定义）。
+
+游戏主界面展示：
+
+角色状态（境界、生命、斗气、描述）
+
+物品栏（显示持有的斗技、丹药、异火等）
+
+历史剧情区域
+
+底部输入框：输入你的行动（如“前往魔兽山脉寻找药老”“使用佛怒火莲攻击”）
+
+物品交互：
+
+双击物品栏中的丹药：直接服用
+
+右键点击斗技/异火/秘法：弹出菜单选择使用方式（攻击、防御、激活等）
+
+点击“自由推演”按钮，AI 会自动生成下一步剧情（无用户输入）。
+
+随时点击“存档”保存进度，“加载”读取历史存档。
+
+命令行（main.py）
+按照文字菜单选择角色、时间段。
+
+进入推演后，输入你想采取的行动（或直接回车让 AI 自由发挥）。
+
+每次推演后自动存档，也可手动存档。
+
+输入数字选择查看历史、返回主菜单等。
+
+📂 数据文件说明
+项目包含以下 JSON 数据文件（均已整理好）：
+
+文件	说明
+[整理好]人物角色清单.json	200+ 角色姓名及身份描述
+[整理好]斗破原著所有异火.json	23 种异火详细信息（排名、特性、颜色等）
+[整理好]斗破原著所有斗技 - 副本.json	300+ 斗技（按阶别分类，含所有者）
+[整理好]斗破苍穹所有丹药.json	100+ 丹药（按品级分类，含功效、适用对象）
+你可以自由替换或增删这些数据，AI 在生成剧情时会自动引用。
+
+🛠️ 高级配置
+修改存档目录
+在 main.py 中找到 SAVE_DIR 变量，改为你想要的路径（例如 ./saves）。
+
+调整 API 参数
+在 main.py 的 call_deepseek 函数中，可修改 temperature（0~1 之间，控制随机性）和 max_tokens（单次回复长度）。
+
+🤝 贡献
+欢迎提交 Issue 或 Pull Request！如果你想让游戏更完善，可以：
+
+补充更多原著数据（地图、势力、魔兽等）
+
+优化 GUI 界面
+
+增加音效、背景音乐
+
+适配更多 AI 模型（如 GPT、Claude）
+
+📄 许可证
+本项目采用 MIT 许可证。
+你可以自由使用、修改、分发，但 必须保留原作者署名（即 南鸾之巅·零柒柒 及 GitHub 项目链接）。
+详见 LICENSE 文件。
+
+🙏 致谢
+感谢 DeepSeek 提供强大的 AI 能力。
+
+感谢 《斗破苍穹》 原著作者 天蚕土豆 创造的世界。
+
+感谢所有参与测试和反馈的朋友们。
+
+👤 作者
+抖音ID:南鸾之巅·零柒柒
+QQ号：814284920
+<img width="3840" height="2160" alt="【哲风壁纸】斗破苍穹-萧炎" src="https://github.com/user-attachments/assets/6303aa6c-fecc-444b-9a5c-3c15f630a4e6" />
+
+
+让 AI 带你重温斗气大陆的热血传奇，一切从你的选择开始。
+命运在手，炎帝可期！
